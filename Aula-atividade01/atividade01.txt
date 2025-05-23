@@ -1,0 +1,14 @@
+--> Configuração de nome e email de usuário.
+
+git config --global user.name = "nomeusuario" | Configura o nome de usuário a nível do usuário logado no sistema.
+git config --global user.email = "emailusuario@gmail.com" | Configura o email de usuário ao mesmo nível anterior.
+
+--> Envio de arquivos para repositório remoto a partir de repositório local.
+
+1. git init | Inicia um repositório local no diretório atual.
+2. git add "nomearquivo.txt" | Adiciona os arquivos a serem monitorados pelo Github.
+ . git add "nomediretorio/"  | Também pode adicionar diretórios.
+
+3. git remote add origin <link-do-repositorio> | Adiciona o repositório remoto a ser utilizado.
+4. git branch -m main | Define qual branch será utilizada para envio de arquivos
+5. git push -u origin main | Envia os arquivos para a branch selecionada.
