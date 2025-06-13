@@ -1,0 +1,150 @@
+html, body{
+    font-family: sans-serif;
+    background-color: beige;
+    align-items: center;
+    display: grid;
+    text-align: center;
+}
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.nav{
+    background-color: burlywood;
+    display: flex;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.links{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 1s ease;
+    color: white;
+    background-color: burlywood;
+    height: 46.5%;
+}
+
+a:hover{
+    background-color: rgb(177, 146, 106);
+}
+
+li{
+    margin: 0 50px 0 0;
+    height: 100%;
+    list-style-type: none;
+}
+
+.bolo-texto{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 25%;
+}
+
+.bolo{
+    padding-right: 35px;
+}
+
+table{
+    border:2px;
+    border-radius: 40px;
+    border:chocolate;
+    background-color: burlywood;
+    border-style: none;
+    padding: 10px;
+}
+
+p{
+    font-size: 20px;
+}
+
+th, tr, td{
+    font-size: 20px;
+    color: beige;
+    border-radius: 10px;
+}
+
+tr{
+    border:2px;
+}
+
+td{
+    background-color: rgb(129, 84, 52);
+    align-items: center;
+    text-align: center;
+}
+
+.td-impar{
+    background-color: rgb(129, 84, 52);
+}
+
+.td-par{
+    background-color: rgb(95, 61, 37);
+}
+
+.titulos{
+    color:rgb(95, 61, 37);
+    font-size: 25px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    background-color: beige;
+    border-radius: 10px;
+    border-color: rgb(206, 206, 185);
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: rgb(206, 206, 185);
+}
+
+img{
+    border-radius: 10px;
+}
+
+.ut-table{
+    background-color: beige;
+}
+
+.ut-th{
+    color: rgb(95, 61, 37);
+}
+
+.ut-td{
+    background-color: beige;
+    max-width: 100px;
+}
+
+.ut-img{
+    width: 150px;
+    height: 150px;
+}
+
+.utensilios{
+    display: flex;
+    padding-left: 30%;
+}
+
+.utensilio{
+    display: grid;
+    padding: 15px;
+}
